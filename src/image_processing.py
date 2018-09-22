@@ -29,3 +29,14 @@ def crip_image(x, y, w, h, filename):
     width = len(im_trim)
     height = len(im_trim[0])
     return im_trim, width, height
+
+
+def face_detect(filepath):
+    print('open:', filepath)
+    # 画像の読み込み
+    im = cv2.imread(filepath)
+    # 顔探索用の機械学習ファイルを取得
+    cascade = cv2.CascadeClassifier("../lbpcascade_animeface.xml")
+    # 顔探索(画像, 縮小スケール, 最低矩形数)
+    faces = cascade.detectMultiScale(im, 1.1, 3)
+    return faces

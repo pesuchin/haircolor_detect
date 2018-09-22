@@ -1,3 +1,5 @@
 [
-  "test/pixel_count_test.py::test_top_pixel_count"
+  "test/pixel_count_test.py::test_top_pixel_count",
+  "test/pixel_count_test.py::test_left_pixel_count",
+  "test/pixel_count_test.py::test_right_pixel_count"
 ]

@@ -1,19 +1,8 @@
 import cv2
 import shutil
 from utils import get_file_path, sys_exit
-from image_processing import crip_image
+from image_processing import crip_image, face_detect
 from predict_white_hair import predict_white_color
-
-
-def face_detect(filepath):
-    print('open:', filepath)
-    # 画像の読み込み
-    im = cv2.imread(filepath)
-    # 顔探索用の機械学習ファイルを取得
-    cascade = cv2.CascadeClassifier("../lbpcascade_animeface.xml")
-    # 顔探索(画像, 縮小スケール, 最低矩形数)
-    faces = cascade.detectMultiScale(im, 1.1, 3)
-    return faces
 
 
 def move_dir(filepath):
