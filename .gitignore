@@ -5,3 +5,5 @@ dist/
 haircolor_detect.egg-info
 images/*
 test/data/*
+output/gomi/*
+output/white_hair/*
