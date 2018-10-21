@@ -5,6 +5,13 @@ This script checks whether anime/manga images have white hair characters.
 
 The detection logic use [lbpcascade_animeface](https://github.com/nagadomi/lbpcascade_animeface).
 
+## Task List
+
+- [x] Execute code.
+- [ ] Translate comment from Japanese to English.
+- [ ] Adding a file extension other than jpg.
+- [ ] Adding Test Code.
+
 ## Requirement
 opencv
 
