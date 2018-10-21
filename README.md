@@ -11,6 +11,7 @@ The detection logic use [lbpcascade_animeface](https://github.com/nagadomi/lbpca
 - [ ] Translate comment from Japanese to English.
 - [ ] Adding a file extension other than jpg.
 - [ ] Adding Test Code.
+- [ ] Adding other hair color predict logic.
 
 ## Requirement
 opencv
