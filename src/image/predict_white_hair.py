@@ -104,8 +104,6 @@ class WhiteHairPredictor(HairPredictor):
             thres = 3
         if thres == 3:
             predict = True
-            print("This is a white hair!")
         else:
             predict = False
-            print("This is not a white hair...")
         return predict
