@@ -39,15 +39,6 @@ Coding rule is flake8 in this repogitory.
 4. Push to the branch (git push origin my-new-feature)
 5. Create new Pull Request
 
-<<<<<<< HEAD
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[pesuchin](https://github.com/pesuchin)
-=======
 ## License
 
 [MIT](https://github.com/pesuchin/haircolor_detect/blob/master/LICENSE)
@@ -55,4 +46,3 @@ Coding rule is flake8 in this repogitory.
 ## Author
 
 [pesuchin](https://github.com/pesuchin)
->>>>>>> 7220993abbdd67a3e7566cb0c66dd0eeede8d91a
