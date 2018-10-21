@@ -4,3 +4,4 @@ build/
 dist/
 haircolor_detect.egg-info
 images/*
+test/data/*
